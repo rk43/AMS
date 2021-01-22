@@ -65,10 +65,10 @@ def delete():
     aircraftInfo1.place(relx=0.3,rely=0.5, relwidth=0.62)
     
     #Submit Button
-    SubmitBtn = Button(root,text="SUBMIT",bg='#d1ccc0', fg='black',command=deleteAircraft)
+    SubmitBtn = Button(root,text="SUBMIT",bg='LightGrey', fg='black',command=deleteAircraft)
     SubmitBtn.place(relx=0.28,rely=0.9, relwidth=0.18,relheight=0.08)
     
-    quitBtn = Button(root,text="Quit",bg='#f7f1e3', fg='black', command=root.destroy)
+    quitBtn = Button(root,text="Quit",bg='CornSilk', fg='black', command=root.destroy)
     quitBtn.place(relx=0.53,rely=0.9, relwidth=0.18,relheight=0.08)
     
     root.mainloop()
