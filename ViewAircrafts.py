@@ -19,7 +19,7 @@ def View():
 
 
     Canvas1 = Canvas(root) 
-    Canvas1.config(bg="#12a4d9")
+    Canvas1.config(bg="Aqua")
     Canvas1.pack(expand=True,fill=BOTH)
         
         
@@ -45,7 +45,7 @@ def View():
     except:
         messagebox.showinfo("Failed to fetch files from database")
     
-    quitBtn = Button(root,text="Quit",bg='#f7f1e3', fg='black', command=root.destroy)
+    quitBtn = Button(root,text="Quit",bg='CornSilk', fg='black', command=root.destroy)
     quitBtn.place(relx=0.4,rely=0.9, relwidth=0.18,relheight=0.08)
     
     root.mainloop()
