@@ -115,10 +115,10 @@ def deliverAircraft():
     
     
     #Deliver Button
-    deliverBtn = Button(root,text="Deliver",bg='#d1ccc0', fg='black',command=deliver)
+    deliverBtn = Button(root,text="Deliver",bg='Gainsboro', fg='black',command=deliver)
     deliverBtn.place(relx=0.28,rely=0.9, relwidth=0.18,relheight=0.08)
     
-    quitBtn = Button(root,text="Quit",bg='#aaa69d', fg='black', command=root.destroy)
+    quitBtn = Button(root,text="Quit",bg='LightGrey', fg='black', command=root.destroy)
     quitBtn.place(relx=0.53,rely=0.9, relwidth=0.18,relheight=0.08)
     
     root.mainloop()
